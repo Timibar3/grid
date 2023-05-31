@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: #222;
     color: white;
@@ -12,10 +16,17 @@ body {
 
 .grid-container {
     background-color: brown;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 150px 400px;
+    grid-template-rows: 150px;
+    column-gap: 10px;
+    row-gap: 15px;
+
 }
 
-.grid-box {
-    background-color: lightblue;
-    border: 3px solid rgb(48, 48, 190);
+.box-grid {
+    background-color: #888;
+    border: 2px solid rgb(48, 48, 190);
     padding: .5rem;
 }
